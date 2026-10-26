@@ -53,11 +53,8 @@ const PAGINAS = [
   { id: 'inicio', texto: 'Inicio', url: 'index.html' },
   { id: 'malla', texto: 'Malla curricular', url: 'malla.html' },
   { id: 'intercampus', texto: 'Rutas Intercampus', url: 'intercampus.html' },
-<<<<<<< HEAD
   { id: 'info', texto: 'Información general', url: 'info.html' },
-=======
   { id: 'convenios', texto: 'Convenios', url: 'convenios.html' },
->>>>>>> fdbbf8f3b1934298f64acd1cfcfdd7092afd36d4
 ];
 
 function pintarBarra() {

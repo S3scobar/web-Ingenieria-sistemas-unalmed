@@ -9,11 +9,8 @@ Sitio web del programa de Ingeniería de Sistemas e Informática de la Facultad 
 | `index.html` | Información del programa (160 créditos, acreditación y renovación, descripción), perfil del egresado, grupos estudiantiles y semilleros |
 | `malla.html` | Malla curricular interactiva (clic en una asignatura: prerrequisitos, créditos y componente) y catálogo de asignaturas por componente, con paginación |
 | `intercampus.html` | Rutas intercampus (Robledo ➔ El Volador, El Volador ➔ Robledo, Río ➔ El Volador), cálculo de próxima salida en tiempo real, guía explicativa y láminas oficiales |
-<<<<<<< HEAD
-| `info.html` | Información general y guía estudiantil (P.A.P.A., bolsa de créditos, horas de corresponsabilidad, citas SIA, simulador interactivo y preguntas frecuentes) |
-=======
+| `info.html` | Información general y guía estudiantil (P.A.P.A., bolsa de créditos, horas de corresponsabilidad, citas SIA, calendario académico, solicitudes estudiantiles de la Facultad de Minas, asesoría, simulador interactivo y preguntas frecuentes) |
 | `convenios.html` | Convenios de la UNAL (Coursera, MATLAB, Microsoft 365) y beneficios para estudiantes (Autodesk, GitHub, JetBrains, Spotify): lista desplegable con quién puede usarlos, qué incluyen y cómo activarlos paso a paso |
->>>>>>> fdbbf8f3b1934298f64acd1cfcfdd7092afd36d4
 
 Cada página carga solo los datos que necesita, y las secciones largas del inicio se cargan cuando la persona se acerca a ellas.
 
@@ -27,13 +24,10 @@ data/
   perfil.json            perfil del egresado
   grupos.json            grupos estudiantiles y semilleros
   intercampus.json       rutas, franjas horarias 2026-2S y conexiones intercampus
-<<<<<<< HEAD
   info.json              guía estudiantil, PAPA, bolsa, corresponsabilidad, FAQs y glosario
-=======
   convenios/
     indice.json          tipos y ficha corta de cada convenio (se pide al abrir la página)
     <id>.json            detalle y pasos de cada uno (se pide solo cuando se abre)
->>>>>>> fdbbf8f3b1934298f64acd1cfcfdd7092afd36d4
   malla/
     componentes.json     componentes y agrupaciones (créditos exigidos)
     plan.json            qué va en cada semestre (códigos o casillas de optativa / libre elección)
